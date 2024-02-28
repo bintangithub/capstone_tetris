@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd
 import numpy as np
-#import plotly.express as px
+import plotly.express as px
 from scipy.spatial import distance
 
 hitung_jarak=pd.read_excel(r"D:\Kuliah\S8\DQ Lab\Capstone\data_pengukuran_jarak(2).xlsx",index_col=0)
