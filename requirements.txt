@@ -2,3 +2,4 @@ plotly express
 plotly_express
 plotly-express
 plotly.express
+plotly
