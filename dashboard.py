@@ -4,8 +4,8 @@ import plotly.express as px
 import numpy as np
 from scipy.spatial import distance
 
-hitung_jarak=pd.read_excel(r"D:\Kuliah\S8\DQ Lab\Capstone\data_pengukuran_jarak(2).xlsx",index_col=0)
-visualisasi_data=pd.read_excel(r"D:\Kuliah\S8\DQ Lab\Capstone\data_visualisasi(4).xlsx",index_col=0)
+hitung_jarak=pd.read_excel(r"data_pengukuran_jarak(2).xlsx",index_col=0)
+visualisasi_data=pd.read_excel(r"data_visualisasi(4).xlsx",index_col=0)
 
 
 #UPDATE LABEL GRAPH
