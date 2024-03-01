@@ -72,7 +72,26 @@ with st.container():
             Label yang didapatkan dari klasterisasi terdapat 8 jenis ketimpangan.</div>
             
             """,unsafe_allow_html=True)
-       
+
+# =============================================================================
+# CONTAINER UNTUK PEMBAHASAN AHP
+# =============================================================================
+
+with st.container:
+   st.header("Analisis Aspek Prioritas")
+   st.markdown("""
+            <div style="text-align: justify;">
+            Analisis AHP dilakukan pada setiap aspek yang dianalisis antara lain Infrastruktur, Kependudukan, Kemiskinan, dan Pendidikan. Berdasarkan beberapa jurnal yang dibaca 
+            dapat disimpulkan bahwa urutan aspek prioritas antara lain:
+            1. Usia Harapan Hidup (Kependudukan)
+            2. Indeks Keparahan Kemiskinan (Kemiskinan)
+            3. Harapan Lama Sekolah (Pendidikan)
+            4. Banyak Titik WiFi (Infrastruktur)
+            
+            </div>
+            
+            """,unsafe_allow_html=True)
+
 # =============================================================================
 # CONTAINER UNTUK GRAPH LABEL
 # =============================================================================
