@@ -135,6 +135,20 @@ with st.container():
    st.plotly_chart(barchart)
    
 # =============================================================================
+# CONTAINER UNTUK CONCLUSION
+# =============================================================================
+with st.container(): 
+   st.header("Kesimpulan")
+   st.markdown("""
+            <div style="text-align: justify;">
+            
+            1. Terdapat ketimpangan wilayah yang besar terjadi antara Kabupaten  berlabel sempurna dengan Kabupaten berlabel Kurang Baik, Buruk, dan Sangat Buruk.
+            2. Pada tahun 2023 terdapat 5 Kabupaten/Kota yang sudah termasuk dalam label sempurna sedangkan masih sebanyak 5 yang termasuk Sangat Buruk, Buruk, atau Kurang Baik.
+            3. Penurunan jarak ketimpangan dapat dilakukan dengan mempertimbangkan aspek prioritas. 
+            </div>
+            """,unsafe_allow_html=True)
+   
+# =============================================================================
 # CONTAINER UNTUK REFERENCE
 # =============================================================================
 with st.container():
