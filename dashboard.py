@@ -83,6 +83,7 @@ with st.container():
             <div style="text-align: justify;">
             Analisis AHP dilakukan pada setiap aspek yang dianalisis antara lain Infrastruktur, Kependudukan, Kemiskinan, dan Pendidikan. Berdasarkan beberapa jurnal yang dibaca 
             dapat disimpulkan bahwa urutan aspek prioritas antara lain:
+            
             1. Usia Harapan Hidup (Kependudukan)
             2. Indeks Keparahan Kemiskinan (Kemiskinan)
             3. Harapan Lama Sekolah (Pendidikan)
