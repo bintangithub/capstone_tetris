@@ -102,6 +102,12 @@ with st.container():
 # =============================================================================
 with st.container(): 
    st.header("Jarak Ketimpangan Wilayah per Kabupaten/Kota setiap Tahun")
+   st.markdown("""
+            <div style="text-align: justify;">Jarak ketimpangan merupakan pengukuran seberapa jauh atau dekat suatu kabupaten terukur 
+            terhadap kabupaten acuan. Semakin dekat kabupaten terukur dengan kabupaten acuan maka jarak akan semakin kecil dan 
+            semakin tidak timpang. Jarak ketimpangan dapat dilihat pada diagram blok di bawah.
+            </div>
+            """,unsafe_allow_html=True)
    tahun=st.radio("Pilih Tahun",hitung_jarak.sort_values("tahun")["tahun"].unique(),horizontal=True)
    kota_acuan=st.selectbox("Pilih Kabupaten Acuan",hitung_jarak.sort_values("kabkot")["kabkot"].unique(),placeholder="Kabupaten/Kota")
    kota_terhitung=st.multiselect("Pilih Kabupaten Terukur",hitung_jarak.sort_values("kabkot")["kabkot"].unique(),placeholder="Kabupaten/Kota")
