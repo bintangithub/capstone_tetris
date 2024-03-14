@@ -199,7 +199,17 @@ with st.container():
                 """,unsafe_allow_html=True)
     st.markdown("""<b/>Analisis dapat dilihat pada file excel berikut :
                 [Analisis AHP](https://github.com/bintangithub/capstone_tetris/blob/46a1ced457e86773846e7a28d37e001464e5d292/Analisis%20AHP%20by%20excel.xlsx)</b>""",unsafe_allow_html=True)
-
+    st.markdown("""
+                Hasil analisis AHP dapat dilihat pada tabel di bawah dengan kode aspek antara lain:
+                    
+                1. Kabkot: Kabupaten/Kota
+                2. Halase: Harapan Lama Sekolah
+                3. Kemiskinan: Tingkat Keparahan Kemiskinan
+                4. WiFi: Banyak Titik WiFi
+                5. Uhahi: Usia Harapan Hidup
+                6. Sum: Jumlah Bobot per Kabupaten
+                """)
+    st.dataframe(ranktrix.loc[:,"kabkot":"sum"],1000,300)
 
 # =============================================================================
 # CONTAINER UNTUK ANALISIS PERSEBARAN KETIMPANGAN
