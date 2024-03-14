@@ -167,7 +167,7 @@ with st.container():
     st.subheader("Analisis Deskriptif Tabel")
     st.markdown("""
             <div style="text-align: justify;">
-            Analisis deskriptif merupakan sebuah tahap yang dilakukan untuk menentukan range aspek berdasarkan histogram persebaran data untuk penilaian verbal pada analisis AHP. Analisis deskriptif dapat dilakukan
+            Analisis deskriptif merupakan sebuah tahap yang dilakukan untuk menentukan range nilai dari setiap aspek berdasarkan histogram persebaran data untuk penilaian verbal pada analisis AHP. Analisis deskriptif dapat dilakukan
             melalui menampilkan persebaran data dari sebuah tabel yang berisi nilai dari kumpulan tabel di atas dari tahun 2019 hingga tahun 2023.
             
             </div>
