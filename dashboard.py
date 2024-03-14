@@ -137,8 +137,7 @@ with st.container():
     st.markdown("""
             <div style="text-align: justify;">
             Analisis AHP merupakan metode pengambilan keputusan yang membandingkan alternatif dari pilihan. Metode ini diterapkan untuk analisis aspek apa saja yang merupakan prioritas penyebab ketimpangan wilayah kabupaten di Jawa Barat. 
-            Pada analisis ketimpangan kabupaten di Jawa Barat dilakukan terhadap aspek antara lain Infrastruktur (Banyak Titik WiFi), Kependudukan (Usia Harapan Hidup), Kemiskinan (Indeks Keparahan Kemiskinan), 
-            dan Pendidikan (Harapan Lama Sekolah). Analisis ini dapat disimak melalui tahapan seperti  di bawah.
+            Analisis ketimpangan wilayah tersebut didapatkan berdasarkan jumlah nilai bobot dari 4 aspek tadi. Analisis ini dapat disimak melalui tahapan seperti di bawah.
             
             </div>
             
