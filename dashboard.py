@@ -10,7 +10,7 @@ halase=pd.read_csv(r"bps-od_17052_harapan_lama_sekolah_berdasarkan_kabupatenkota
 wifi=pd.read_csv(r"diskominfo-od_17306_jml_titik_layanan_akses_internet_publik_wifi__kabupate_data.csv",index_col=0)
 uhahi=pd.read_csv(r"bps-od_15038_usia_harapan_hidup_berdasarkan_kabupatenkota_data.csv",index_col=0)
 kemiskinan=pd.read_csv(r"bps-od_19998_indeks_keparahan_kemiskinan_berdasarkan_kabupatenkota_data.csv",index_col=0)
-database=pd.read_csv("_select_hls_nama_kabupaten_kota_as_kabkot_hls_harapan_lama_sekol_202402070903.csv",index_col=0)
+database=pd.read_csv(r"_select_data2019_kabupaten_data2019_wifi_as_wifi2019_data2020_wi_202402051507.csv",index_col=0)
 
 # =============================================================================
 # KUMPULAN DARI FUNGSI UNTUK KEBUTUHAN TAMPILAN DAN LAIN LAIN
