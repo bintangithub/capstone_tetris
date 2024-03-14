@@ -6,10 +6,10 @@ import numpy as np
 hitung_jarak=pd.read_excel(r"data_pengukuran_jarak(2).xlsx",index_col=0)
 visualisasi_data=pd.read_excel(r"data_visualisasi(4).xlsx",index_col=0)
 ranktrix=pd.read_csv(r"rank_matrix.csv",index_col=0)
-halase=pd.read_csv(r"od_17052_harapan_lama_sekolah_berdasarkan_kabupatenkota (1)\data.jabarprov.go.id\bps-od_17052_harapan_lama_sekolah_berdasarkan_kabupatenkota_data.csv",index_col=0)
-wifi=pd.read_csv(r"od_17306_jml_titik_layanan_akses_internet_publik_wifi__kabupate\data.jabarprov.go.id\diskominfo-od_17306_jml_titik_layanan_akses_internet_publik_wifi__kabupate_data.csv",index_col=0)
-uhahi=pd.read_csv(r"od_15038_usia_harapan_hidup_berdasarkan_kabupatenkota\data.jabarprov.go.id\bps-od_15038_usia_harapan_hidup_berdasarkan_kabupatenkota_data.csv",index_col=0)
-kemiskinan=pd.read_csv(r"od_19998_indeks_keparahan_kemiskinan_berdasarkan_kabupatenkota\data.jabarprov.go.id\bps-od_19998_indeks_keparahan_kemiskinan_berdasarkan_kabupatenkota_data.csv",index_col=0)
+halase=pd.read_csv(r"bps-od_17052_harapan_lama_sekolah_berdasarkan_kabupatenkota (1)\data.jabarprov.go.id\bps-od_17052_harapan_lama_sekolah_berdasarkan_kabupatenkota_data.csv",index_col=0)
+wifi=pd.read_csv(r"diskominfo-od_17306_jml_titik_layanan_akses_internet_publik_wifi__kabupate\data.jabarprov.go.id\diskominfo-od_17306_jml_titik_layanan_akses_internet_publik_wifi__kabupate_data.csv",index_col=0)
+uhahi=pd.read_csv(r"bps-od_15038_usia_harapan_hidup_berdasarkan_kabupatenkota\data.jabarprov.go.id\bps-od_15038_usia_harapan_hidup_berdasarkan_kabupatenkota_data.csv",index_col=0)
+kemiskinan=pd.read_csv(r"bps-od_19998_indeks_keparahan_kemiskinan_berdasarkan_kabupatenkota\data.jabarprov.go.id\bps-od_19998_indeks_keparahan_kemiskinan_berdasarkan_kabupatenkota_data.csv",index_col=0)
 database=pd.read_csv("_select_hls_nama_kabupaten_kota_as_kabkot_hls_harapan_lama_sekol_202402070903.csv",index_col=0)
 
 # =============================================================================
